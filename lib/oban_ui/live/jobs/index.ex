@@ -17,7 +17,7 @@ defmodule ObanUi.Live.Jobs.Index do
   def handle_params(params, _session, socket) do
     {:noreply,
      assign(socket,
-       paginated_data: paginate_entries(params) |> IO.inspect(),
+       paginated_data: paginate_entries(params),
        params: params,
        selected_job: nil
      )}
