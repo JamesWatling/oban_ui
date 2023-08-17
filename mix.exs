@@ -26,7 +26,7 @@ defmodule ObanUi.MixProject do
       {:phoenix_html, "~> 3.3"},
       {:phoenix_live_view, "~> 0.19"},
       {:phoenix_view, "~> 2.0.2"},
-      {:surface, "~> 0.9.1"},
+      {:surface, "~> 0.11"},
       {:gettext, "~> 0.23"},
       {:phoenix_ecto, "~> 4.4.0"},
       # Pagination
