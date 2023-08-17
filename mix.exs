@@ -5,7 +5,7 @@ defmodule ObanUi.MixProject do
     [
       app: :oban_ui,
       version: "0.1.1",
-      elixir: "~> 1.13",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       compilers: Mix.compilers(),
       deps: deps()
@@ -22,9 +22,9 @@ defmodule ObanUi.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix, "~> 1.6.13"},
-      {:phoenix_html, "~> 3.2.0"},
-      {:phoenix_live_view, "~> 0.18.2"},
+      {:phoenix, "~> 1.7.7"},
+      {:phoenix_html, "~> 3.3"},
+      {:phoenix_live_view, "~> 0.19"},
       {:phoenix_view, "~> 2.0.2"},
       {:surface, "~> 0.9.1"},
       {:gettext, "~> 0.20.0"},
