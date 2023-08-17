@@ -27,7 +27,7 @@ defmodule ObanUi.MixProject do
       {:phoenix_live_view, "~> 0.19"},
       {:phoenix_view, "~> 2.0.2"},
       {:surface, "~> 0.9.1"},
-      {:gettext, "~> 0.20.0"},
+      {:gettext, "~> 0.23"},
       {:phoenix_ecto, "~> 4.4.0"},
       # Pagination
       {:scrivener_ecto, "~> 2.7.0"}
